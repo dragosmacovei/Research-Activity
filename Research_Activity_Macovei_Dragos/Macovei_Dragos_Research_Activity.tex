@@ -1,0 +1,110 @@
+\documentclass[12pt, twoside]{article}
+\usepackage[top=4.3cm, bottom=5.7cm, left = 3.74cm, right = 3.75cm]{geometry}
+\usepackage{times}
+\usepackage{authblk}
+\usepackage{graphicx} 
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{cite}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{amssymb}
+\usepackage{chemfig}
+\usepackage{centernot} 
+\usepackage[labelsep=space]{caption}
+\usepackage{float}
+\renewcommand{\figurename}{Fig.}
+
+
+\begin{document}
+	\begin{center}
+	\begin{huge}
+	
+	\textbf{Outdoor environment exploration using autonomous terrestrial robots}
+	\end{huge}
+	
+	\begin{large}
+		Dragoș Macovei$^1$
+	\end{large}
+	
+	
+	\small {$^1$Politehnica University of Bucharest, Faculty of Electronics, Telecommunications and Technology of Information, Bucharest, Romania}
+	
+	\texttt {Email: dragos\_macovei@yahoo.com}
+	
+	\textbf{Key-words:} Terrestrial robotic system; Autonomous terrestrial robot; Exploration and mapping; Obstacle avoidance; Autonomous exploration; Extreme environments; Legged locomotion
+
+	\end{center}
+
+\section{Introduction}
+
+Environment exploration it’s about gathering information about the surroundings as a result of being curious. Active exploration of an environment is more likely to result in greater knowledge acquisition than passive exploration.
+
+The terrestrial robot is a technical system capable of substituting humans in performing heavy operations such as checking for dangers, exploring new territories, checking for the existence of different things in certain areas. These robots are classified into wheeled robots (driven or autonomous), steppers (single-legged or multi-legged), crawlers/climbers (endoscopic robot or for movement in pipes), or with the possibility of evolution in fluid environments. Regardless of which category it belongs to, there are many uses for them in different fields. The fact that they are autonomous allows people to stop worrying about remote control and rely on the information they gather.
+
+
+\section{Summaries of the ‘selected papers’}
+\subsection{A Fully Autonomous Terrestrial Bat-Like Acoustic Robot\cite{1}}
+The robot featured in this article is called Robat and it is a wheeled device that attempts to mimic the actions of a bat only on a terrestrial plane. It relies on active sound emission (also called echolocation) to map new terrain and navigate through it. Using the echoes reflected from the environment, the robot creates the borders of objects it encounters and classifies them using an artificial neural network, thus creating a rich map of its environment. A single transmitter and two ears are placed in the robot's housing, and a signal processing approach is applied to extract information about the position and identity of objects.
+
+The Robat's goal was to move through an environment that it has never experienced before finding its path without hitting objects in the Tel Aviv University Botanical Garden. While moving, the Robat stopped every 0.5m and the sonar system (emitter and receivers) was rotated to three different headings relative to the direction of movement, a sound signal was emitted, and echoes were recorded as 0.035s long (equivalent to a range of ca. 6 meters). The experiment was successful, but the robot has mechanical limitations and cannot move at high speed, analyse and extract information quickly.
+
+\subsection{Autonomous Soil Analysis By The Mars Microbeam Raman Spectrometer (Mmrs) On-Board A Rover In The Atacama Desert: A Terrestrial Test For Planetary Exploration\cite{2}}
+In one of the driest and oldest deserts in non-polar regions of the Earth, Atacama Desert (Chile), the Mars Micro-beam Raman Spectrometer(MMRS) has been tested. This robot is equipped with a navigation camera on its front mast, which takes panorama images during travel and at the sites along its traverse. Also, it has a drill that was designed to capture soil/rock cuttings from depths to approximately 1m by using a ‘bite’ approach whereby the drill repeatedly penetrated in 10-cm intervals, captured the sample on the deep flutes, and deposited the sample into one of the 20 sample cups on the carousel. Further, it must position a particular sample cup under the scientific in situ instruments for analysis.
+
+In this campaign, the robustness of MMRS was demonstrated. The automated soil sample analysis made by the MMRS unambiguously identified a variety of igneous minerals, carbonates, sulfates, and carbonaceous materials, which can indicate regional geological evolution, and potential bioactivities.
+
+
+\subsection{Autonomous Exploration And Mapping Of Abandoned Mines\cite{3}}
+Exploring and mapping abandoned mines opens a world of opportunities for subterranean robotic exploration. The article presents the software architecture of an autonomous robotic system which goes by the name of Groundhog and it is equipped with onboard computing, laser range sensing, gas and sinkage sensors, and video recording equipment.
+
+Even if accurate mine maps exist, those are usually just idealized two-dimensional drawings and little can be inferred from such sketches with regard to critical measures. A robot that creates accurate models of abandoned mines would be of great relevance to a number of problems that directly affect the people who work or live near them. One of the problems that can appear is also groundwater contamination and knowing the volume, location, and condition of the abandoned mine can be hugely informative in performing and planning interventions.
+
+The core of the Groundhog navigation system is comprised of a software package that solves the simultaneous localization and mapping (SLAM) problem by acquiring 2-D maps. At the lowest level of processing, Groundhog’s mapping system uses a real-time scan matching technique for registering consecutive scans acquired using a laser range finder pointed forward.
+
+The system, which was initially remotely controlled and then converted to an autonomous one, has been tested under extreme conditions and it generated accurate maps fractions of abandoned mines that are inaccessible to people.
+
+
+\subsection{A Study On Development Of A Hybrid Aerial/Terrestrial Robot System For Avoiding Ground Obstacles By Flight\cite{4}}
+Many studies related to robots that have been performed around the world, assumed operation at locations where entry is difficult (such as disaster sites) and have focused on various terrestrial robots(snake-like, humanoid, spider-type, wheeled).  In this paper, it was proposed a hybrid robot system that is aerial and terrestrial at the same time by equipping a quadcopter with a mechanism for ground movement. This generated a process of autonomous obstacle avoidance by flight when an obstacle appeared during ground movement.
+
+The advantages of ground-mobile robots include the ability to perform work in a stable state, ease of work in tight locations, and easy operation. The advantages of aerial robots include the ability to move quickly without being affected by the terrain.
+
+As far as the construction of the robot is concerned, it has a monocular camera, a control board,  a chassis, omni wheels for 360° movement, dampers, and a framework for maintaining stability. In order to be able to fly, the robot system was performed in a manner similar to a quadcopter flight, using throttle, elevator, aileron, and rudder operations. Image processing is performed to detect obstacles and a decision is made based on the distance to the obstacle. It is also possible to switch between autonomous operation and manual operation.
+
+The results of this study show that it was possible to manufacture a robot system that performs both ground movement and flight and by mounting a basic autonomous control system the robot became more practical. 
+
+
+\subsection{Autonomous Spot: Long-Range Autonomous Exploration Of Extreme Environments With Legged Locomotion\cite{5}}
+Spot is an agile mobile robot that navigates terrain with unprecedented mobility, allowing the user to automate routine inspection tasks and data capture safely, accurately, and frequently. The results are safer, more efficient and more predictable operations. The robot can carry and power up to 14kg of inspection equipment, it can program repeatable autonomous missions to gather consistent data and it is easy to control from afar using an intuitive tablet application and built-in stereo cameras. The Boston Dynamics Spot robot uses 360° perception to map terrain and avoid obstacles as they appear and it cruises over loose gravel, grass, curbs, and stairs.
+
+This system utilizes pre-built solutions from an existing network of third-party software and hardware providers and it can attach and integrate unique outside hardware using mounting rails and payload ports. More than that, it is using the Software Development Kit (SDK) to create custom controls, program autonomous missions, and integrate sensor inputs into data analysis tools.
+
+Spot can be used in several industries. In construction, it can inspect progress on construction sites, create digital twins, and compare as-built conditions to Building Information Modeling (BIM) autonomously. In manufacturing, it can be programmed to do autonomous inspection rounds or create digital twins of a plant in advance of rework. In mining, it can create routine tunnel inspection routes and attach additional payloads to take measurements and ensure safe working conditions. 
+
+
+
+
+\section{Conclusions}
+Autonomous robot mapping and traversal of extreme environments under time constraints has a wide variety of real-world applications, including search and rescue after natural disasters, exploration of extreme planetary terrains and inspection of urban underground environments.
+
+The growing use of autonomous robots emphasizes the need for new sensory approaches to facilitate tasks such as obstacle avoidance, object recognition, and path planning. One of the most challenging tasks, faced by many robots, is the problem of generating a map of an unknown environment, while simultaneously navigating through this environment for the first time.
+
+
+\begin{thebibliography}{24}
+
+\bibitem{1}	Itamar \uppercase{Eliakim}, Zahi \uppercase{Cohen}, Gabor \uppercase{Kosa}, Yossi \uppercase{Yove}, \textit{A Fully Autonomous Terrestrial Bat-Like Acoustic Robot}, PLoS Comput Biol 14(9): e1006406, 2018.
+
+\bibitem{2}	Jie \uppercase{Wei}, Alian \uppercase{Wang}, James L. \uppercase{Lambert}, David \uppercase{Wettergreen}, Nathalie \uppercase{Cabrol}, Kimberley \uppercase{Warren-Rhodes}, Kris \uppercase{Zacny},\textit{Autonomous Soil Analysis By The Mars Microbeam Raman Spectrometer (Mmrs) On-Board A Rover In The Atacama Desert: A Terrestrial Test For Planetary Exploration}, Journal of RAMAN SPECTROSCOPY, Volume46, Issue10, Special Issue: 11th International GeoRaman Conference, Pages 810-821, October 2015.
+
+\bibitem{3} Sebastian \uppercase{Thrun}, Scott \uppercase{Thayer}, William \uppercase{Whittaker}, Christopher \uppercase{Baker}, Wolfram \uppercase{Burgard}, David \uppercase{Ferguson}, Dirk \uppercase{Hähnel}, Michael \uppercase{Montemerlo}, Aaron \uppercase{Morris}, Zachary \uppercase{Omohundro}, Charlie \uppercase{Reverte}, Warren \uppercase{Whittaker} \textit{Autonomous Exploration And Mapping Of Abandoned Mines}, IEEE Robotics \& Automation Magazine, December 2004.
+
+\bibitem{4}	Chinthaka  \uppercase{Premachandra}, Masahiro \uppercase{Otsuka}, Ryo \uppercase{Gohara}, Takao \uppercase{Ninomiya}, Kiyotaka \uppercase{Kato}, \textit{A Study On Development Of A Hybrid Aerial/Terrestrial Robot System For Avoiding Ground Obstacles By Flight}, IEEE/CAA Journal of Automatica Sinica, September 2018.
+
+\bibitem{5}	Amanda  \uppercase{Bouman}, Muhammad Fadhil \uppercase{Ginting}, Nikhilesh \uppercase{Alatur}, Matteo  \uppercase{Palieri}, David D. \uppercase{Fan}, Thomas  \uppercase{Touma}, Torkom \uppercase{Pailevanian}, Sung-Kyun \uppercase{Kim}, Kyohei \uppercase{Otsu}, Joel \uppercase{Burdick}, Ali-Akbar \uppercase{Agha-Mohammadi}, \textit{Autonomous Spot: Long-Range Autonomous Exploration Of Extreme Environments With Legged Locomotion}, Cornell University, Submitted on 19 Oct 2020 (v1), last revised 30 November 2020.
+
+
+\end{thebibliography}
+
+\end{document}
